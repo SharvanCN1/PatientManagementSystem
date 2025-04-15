@@ -27,8 +27,8 @@ This project demonstrates a database system using SQL and a Python-based UI. It 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/SharvanCN1/PatientManagementSystem.git
+cd PatientManagementSystem 
 ```
 
 ### 2. Set Up the Virtual Environment
@@ -51,17 +51,17 @@ Ensure you have a database server (like PostgreSQL or MySQL) running. Update `ap
 Run the SQL scripts in the following order:
 
 ```bash
-psql -U youruser -d yourdb -f create_database.sql
-psql -U youruser -d yourdb -f insert_data.sql
-psql -U youruser -d yourdb -f index.sql
-psql -U youruser -d yourdb -f views.sql
+mysql -U youruser -d yourdb -f create_database.sql
+mysql -U youruser -d yourdb -f insert_data.sql
+mysql -U youruser -d yourdb -f index.sql
+mysql -U youruser -d yourdb -f views.sql
 ```
 
 (Optional)
 ```bash
-psql -U youruser -d yourdb -f sub_queries.sql
-psql -U youruser -d yourdb -f test.sql
-psql -U youruser -d yourdb -f view_views.sql
+mysql -U youruser -d yourdb -f sub_queries.sql
+mysql -U youruser -d yourdb -f test.sql
+mysql -U youruser -d yourdb -f view_views.sql
 ```
 
 ### 5. Run the Application
